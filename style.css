@@ -1,0 +1,25 @@
+#movies img,
+#movie img {
+  width: 100%;
+  height: 395px;
+}
+
+#movies .col-lg-4 .card,
+#movies .col-md-6 .card,
+#movies .col-sm-12 .card {
+  height: 580px !important;
+}
+
+@media (max-width: 501px) {
+  #movie .col-md-8 {
+    padding-left: 40px;
+  }
+
+  #movie .col-md-8 input,
+  #movie .col-md-8 a {
+    display: grid;
+    align-items: center;
+    margin: 15px auto;
+    align-self: center;
+  }
+}
